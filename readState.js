@@ -4,9 +4,10 @@ const fs = require('fs')
 
 const arweave = Arweave.init({ host: 'arweave.net', port: 443, protocol: 'https' })
 //const arweave = Arweave.init({ host: 'localhost', port: 1984, protocol: 'http' })
-const warp = WarpFactory.custom(arweave, defaultCacheOptions, 'mainnet')
-  .useArweaveGateway()
-  .build()
+// const warp = WarpFactory.custom(arweave, defaultCacheOptions, 'mainnet')
+//   .useArweaveGateway()
+//   .build()
+const warp = WarpFactory.forMainnet()
 
 const TESTBAR = 'rjrEUljk4lfLyrTQbjkXNJGyKCh33b4CX-3gKM6GSFc'
 

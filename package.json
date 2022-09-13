@@ -1,0 +1,12 @@
+{
+  "name": "atomic-assets-wip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/twilson63/atomic-assets-wip.git",
+  "author": "Tom Wilson <tom@hyper.io>",
+  "license": "MIT",
+  "dependencies": {
+    "arweave": "^1.11.6",
+    "warp-contracts": "^1.2.4"
+  }
+}
